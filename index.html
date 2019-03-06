@@ -4,30 +4,49 @@
 <head>
   <meta charset="utf-8">
   <title>Animal Giphy Search</title>
-  <style type="text/css" src="style.css">
-   
-  </style>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
 </head>
 
 <body>
 
+  <!--<div class="container">-->
+  <h1>Animal Giphy Search</h1>
+  <div id="animal-buttons"></div>
+  <h1>Movie Search</h1>
+  <div id="movie-buttons"></div>
+  <hr>
   <div class="container">
-    <h1>Animal Giphy Search</h1>
+    <div class="row">
+      <div class="col-md-9">
+        <!-- Animals/Movies will get dumped here -->
+        <div id="animal-view"></div>
+        <div id="movies-view"></div>
+      </div>
+      <div class="col-md-2">
+        <form id="animal-form">
+          <label for="animal-input">Add an Animal</label>
+          <input type="text" id="animal-input"><br>
 
-    <!-- Animals will get dumped here -->
-    <div id="animal-buttons"></div>
-    <div id="animal-view"></div>
+          <!-- Button triggers new animal to be added -->
+          <input id="add-animal" type="submit" value="Submit Animal">
 
-    <form id="animal-form">
-      <label for="animal-input">Add an animal</label>
-      <input type="text" id="animal-input"><br>
+        </form>
+        <form id="movie-form">
+          <label for="movie-input">Add a Movie</label>
+          <input type="text" id="movie-input">
+          <br>
 
-      <!-- Button triggers new animal to be added -->
-      <input id="add-animal" type="submit" value="Add an Animal">
-    </form>
-    <section>
+          <!-- Button triggers new movie to be added -->
+          <input id="add-movie" type="submit" value="Submit Movie">
+        </form>
+      </div>
+    </div>
+    <!--</div>-->
 
-    </section>
+
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

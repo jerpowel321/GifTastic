@@ -1,12 +1,67 @@
+body{
+    background-color: #CE796B;
+}
+
+
 button,
 div,
 form,
+label,
 input {
   margin: 10px;
 }
 
+button{
+    background-color: #495867;
+    color: white;
+    font-weight: bold;
+}
 
-.typeofAnimal{
+h1 {
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.typeofAnimal {
    
-    display: inline;
+    float:left;
+}
+
+p {
+    margin: 0 5px 5px 0;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+    word-wrap: break-word;
+    
+}
+img{
+    border-color: #495867;
+    border-style: solid;
+    border: 3px;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+}
+.movie {
+   
+}
+
+h4 {
+    justify-content: center;
+}
+
+#animal-input,
+#movie-input {
+    background-color: #E7AD99;
+    border-color: white;
 }
