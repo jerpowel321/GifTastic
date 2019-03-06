@@ -7,7 +7,7 @@ function displayAnimalInfo() {
   $("#movies-view").empty();
 
   var animal = $(this).attr("data-name");
-  var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key=h1r3UpbjPtncFwWwh82S3X0ODSXi9Vsn";
+  var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key=h1r3UpbjPtncFwWwh82S3X0ODSXi9Vsn";
 
   // Creating an AJAX call for the specific animal button being clicked
   $.ajax({
