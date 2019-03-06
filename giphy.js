@@ -38,7 +38,7 @@ function displayAnimalInfo() {
   });
 
 }
-var movies = ["Inception", "Titanic", "The Notebook"]
+var movies = ["Ratatouille", "The Lion King", "Happy Feet"]
 
 function displayMovieInfo() {
   $("#animal-view").empty();
@@ -63,7 +63,7 @@ function displayMovieInfo() {
     var released = response.Released;
     var pTwo = $("<p>").text("Released: " + released);
     var plot = response.Plot;
-    var pThree = $("<p>").text("Plot: " + plot);
+    var pThree = $("<p class='leftAligned'>").text("Plot: " + plot);
     var imgURL = response.Poster;
     var image = $("<img>").attr("src", imgURL);
     //append

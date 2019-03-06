@@ -15,6 +15,7 @@ button{
     background-color: #495867;
     color: white;
     font-weight: bold;
+    border-radius: 5px;
 }
 
 h1 {
@@ -40,9 +41,8 @@ p {
     
 }
 img{
-    border-color: #495867;
-    border-style: solid;
-    border: 3px;
+    border: 7px ridge #ECC8AF;
+
 }
 hr {
     display: block;
@@ -64,4 +64,16 @@ h4 {
 #movie-input {
     background-color: #E7AD99;
     border-color: white;
+}
+
+.container {
+    text-align: center;
+}
+
+.leftAligned {
+    text-align: left;
+}
+
+h2, h4 {
+    font-family: 'WaltographRegular'; 
 }
