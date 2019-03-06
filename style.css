@@ -1,0 +1,12 @@
+button,
+div,
+form,
+input {
+  margin: 10px;
+}
+
+
+.typeofAnimal{
+   
+    display: inline;
+}
